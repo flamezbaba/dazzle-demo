@@ -18,10 +18,22 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #121212;
+}
+
+.speedy::before{
+  position: absolute;
+  display: inline-block;
+  content: "";
+  bottom: -26px;
+  left: -40px;
+  width: 40px;
+  height: 70px;
+  background-image: url("../public/strike.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.speedy{
+  margin-left: 37px;
 }
