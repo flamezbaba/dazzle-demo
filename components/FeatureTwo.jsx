@@ -12,9 +12,9 @@ export default function FeatureTwo() {
       <div className="flex flex-col w-3/6 md:w-full">
         <div className="text-black text-lg md:text-sm mr-[80px] md:mr-[0px] md:px-[40px]">
           <p className=" font-thin">
-            Get the best of both worlds with our virtual and physical cards. Our
+          Get the best of both worlds with our virtual and physical cards. Our
             all-in-one solution offers the convenience and security you need,
-            whether you're shopping online or in-store. Simplify your wallet and
+            whether you&apos;re shopping online or in-store. Simplify your wallet and
             enjoy the ultimate card experience with US
           </p>
         </div>
@@ -26,8 +26,8 @@ export default function FeatureTwo() {
             viewport={{ once: false }}
             className="flex gap-7"
           >
-            <Image src={blackCard} />
-            <Image src={blackCard} />
+            <Image src={blackCard} alt="" />
+            <Image src={blackCard} alt="" />
           </motion.div>
         </div>
       </div>

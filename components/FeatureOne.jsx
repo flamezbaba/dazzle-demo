@@ -25,10 +25,10 @@ export default function FeatureOne() {
             transition={{ ease: "easeOut", duration: 3 }}
             viewport={{once: false}}
           >
-            <Image src={roundFlag} className="w-[350px]" />
+            <Image src={roundFlag} className="w-[350px]" alt="" />
           </motion.div>
           <div className="bg-white rounded-2xl drop-shadow-md absolute top-0 md:top-[-20px] left-[-100px] md:left-[-10px] flex gap-3 items-center p-5 md:p-3">
-            <Image src={female} className="w-[70px] h-[70px] rounded-full" />
+            <Image src={female} alt="" className="w-[70px] h-[70px] rounded-full" />
             <p className="text-black">It's so simple</p>
           </div>
           <div className="bg-white rounded-2xl drop-shadow-sm absolute bottom-[36px] md:bottom-[-30px] md:right-[20px] lg:left-[-50px] flex lg:flex-col md:flex items-center p-7 md:p-3 md:gap-2">

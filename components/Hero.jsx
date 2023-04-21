@@ -25,8 +25,8 @@ export default function Hero() {
         </div>
       </div>
       <div className="flex lg:flex-1 justify-center md:items-start mt-5 md:h-[200px] md:w-full overflow-hidden">
-        <Image src={heroImage} className="md:w-full" />
-      </div>
+        <Image src={heroImage} className="md:w-full" alt="" />
+      </div> 
     </div>
   );
 }
